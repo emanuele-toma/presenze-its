@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Use sans serif */
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+/* Add border to all table cells */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6px 12px;
+}
+
+table {
+  border-radius: 8px;
+}
+
+#container {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
